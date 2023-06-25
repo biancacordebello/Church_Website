@@ -62,11 +62,12 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 45px;
-
+    justify-content: space-between;
 }
 
 .title{
     padding: 45px;
+    padding-bottom: 0px;
     color: #002C5F;
     font-size: 30px;
     font-family: 'Raleway';
@@ -77,6 +78,7 @@ body{
 }
 
 .text{
+    padding: 45px;
     color: #000;
     font-size: 17px;
     font-family: 'Raleway';
